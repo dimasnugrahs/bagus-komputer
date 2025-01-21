@@ -2,7 +2,7 @@ import React from "react";
 
 const WhyUs = () => {
   return (
-    <div className="lg:px-32">
+    <div className="px-6 lg:px-32">
       <div className="gap-16 items-center py-8 mx-auto max-w-screen-xl lg:grid lg:grid-cols-2 lg:py-16">
         <div className="grid grid-cols-2 gap-4 mt-8">
           <img

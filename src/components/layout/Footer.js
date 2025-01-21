@@ -5,7 +5,7 @@ import { Link } from "react-router-dom";
 const Footer = () => {
   return (
     <footer className="bg-brand-white border-t-2">
-      <div className="mx-auto w-full lg:px-32 py-6 lg:py-8">
+      <div className="mx-auto w-full px-6 lg:px-32 py-6 lg:py-8">
         <div className="md:flex md:justify-between">
           <div className="mb-6 md:mb-0 mr-5">
             <Link to="https://flowbite.com/" className="flex items-center">
@@ -100,24 +100,7 @@ const Footer = () => {
                 </li>
               </ul>
             </div>
-            <div className="lg:hidden">
-              <h2 className="mb-6 text-sm font-semibold  uppercase text-brand-primary">
-                BPR LOREM IPSUM
-              </h2>
-              <ul className="text-brand-black">
-                <li className="mb-4">
-                  <p className="text-gray-500">
-                    BPR Lorem Ipsum Berizin dan Diawasi oleh Otoritas Jasa
-                    Keuangan serta Bank Peserta Penjaminan LPS
-                  </p>
-                </li>
-                <li>
-                  <p className="text-gray-500">
-                    BPR Lorem Ipsum merupakan Bank Peserta Penjaminan LPS
-                  </p>
-                </li>
-              </ul>
-            </div>
+            
           </div>
         </div>
         <hr className="my-6  sm:mx-auto border-gray-700 lg:my-8" />
