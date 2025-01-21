@@ -15,7 +15,7 @@ const Projects = () => {
             >
               <img
                 class="rounded-2xl object-cover"
-                src="https://pagedone.io/asset/uploads/1700731972.png"
+                src="https://cdn.dribbble.com/userupload/12351541/file/original-183aca87815408bec3b4ad0de5801a9f.png?resize=640x800&vertical=center"
                 alt="Jacket image"
               />
               <div class="absolute z-10 bottom-3 left-0 mx-3 p-3 bg-white w-[calc(100%-24px)] rounded-xl shadow-sm shadow-transparent transition-all duration-500 group-hover:shadow-indigo-200 group-hover:bg-indigo-50">
@@ -35,7 +35,7 @@ const Projects = () => {
             >
               <img
                 class="rounded-2xl object-cover"
-                src="https://pagedone.io/asset/uploads/1700731993.png"
+                src="https://cdn.dribbble.com/userupload/12351541/file/original-183aca87815408bec3b4ad0de5801a9f.png?resize=640x800&vertical=center"
                 alt="Blazer image"
               />
               <div class="absolute z-10 bottom-3 left-0 mx-3 p-3 bg-white w-[calc(100%-24px)] rounded-xl shadow-sm shadow-transparent transition-all duration-500 group-hover:shadow-indigo-200 group-hover:bg-indigo-50">
@@ -53,7 +53,7 @@ const Projects = () => {
             >
               <img
                 class="rounded-2xl object-cover"
-                src="https://pagedone.io/asset/uploads/1700732011.png"
+                src="https://cdn.dribbble.com/userupload/12351541/file/original-183aca87815408bec3b4ad0de5801a9f.png?resize=640x800&vertical=center"
                 alt="printed top image"
               />
               <div class="absolute z-10 bottom-3 left-0 mx-3 p-3 bg-white w-[calc(100%-24px)] rounded-xl shadow-sm shadow-transparent transition-all duration-500 group-hover:shadow-indigo-200 group-hover:bg-indigo-50">
@@ -72,7 +72,7 @@ const Projects = () => {
             >
               <img
                 class="rounded-2xl object-cover"
-                src="https://pagedone.io/asset/uploads/1700732027.png"
+                src="https://cdn.dribbble.com/userupload/10801407/file/original-7f3ad4c31a2cf0c9ad5fe2112c3abeb8.png?resize=752x&vertical=center"
                 alt="Denim jacket image"
               />
               <div class="absolute z-10 bottom-3 left-0 mx-3 p-3 bg-white w-[calc(100%-24px)] rounded-xl shadow-sm shadow-transparent transition-all duration-500 group-hover:shadow-indigo-200 group-hover:bg-indigo-50">

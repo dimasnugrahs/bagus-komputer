@@ -2,40 +2,28 @@ import React from "react";
 
 const features = [
   {
-    title: "Custom colours",
+    title: "Pengembangan Website",
     description:
-      "Take colours from anywhere and plug them in here to see if they look good.",
-    icon: "🔥", // Ganti dengan icon SVG atau gambar sesuai kebutuhan
+      "Bangun kehadiran online profesional dengan website modern dan fungsional.",
+    icon: "https://www.svgrepo.com/show/474451/rocket-2.svg", // Ganti dengan icon SVG atau gambar sesuai kebutuhan
   },
   {
-    title: "Palette Inspiration",
+    title: "Digital Marketing",
     description:
-      "Handpicked colour palettes for inspiration for your next project.",
-    icon: "💡",
+      "Tingkatkan jangkauan bisnis Anda dengan strategi pemasaran digital yang tepat sasaran.",
+    icon: "https://www.svgrepo.com/show/444194/brand-google-cloud.svg",
   },
   {
-    title: "Toggle light/dark mode",
+    title: "Perangkat Keras & Perangkat Lunak Komputer",
     description:
-      "Every section has a toggle - change to see the difference between light/dark mode.",
-    icon: "🔄",
+      "Layanan perbaikan dan perawatan perangkat komputer untuk menjaga performa optimal.",
+    icon: "https://www.svgrepo.com/show/451874/software-update-urgent.svg",
   },
   {
-    title: "Tailwind shades",
+    title: "Instalasi Jaringan",
     description:
-      "Cheeky Palettes automatically generates Tailwind shades from your custom colours.",
-    icon: "🎨",
-  },
-  {
-    title: "Overwrite the shades to your liking",
-    description:
-      "Don't like the generated shades of your colours? No problem - you can overwrite them.",
-    icon: "⚙️",
-  },
-  {
-    title: "Hover over any colour",
-    description:
-      "Hover over any colour to see which shades of that colour are being used.",
-    icon: "🖱️",
+      "Koneksi internet cepat dan stabil dengan layanan instalasi jaringan profesional.",
+    icon: "https://www.svgrepo.com/show/196138/networking.svg",
   },
 ];
 
@@ -258,8 +246,8 @@ const Services = () => {
           <h2 className="text-3xl md:text-4xl font-bold">
             Here to help you pick the right colours for your next project
           </h2>
-          <p className="mt-4 text-lg text-brand-secondary">
-            What can you do with Cheeky Palettes?
+          <p className="mt-4 text-lg text-brand-black">
+            Apa yang Bisa Kami Lakukan untuk Anda?
           </p>
         </div>
 
@@ -270,7 +258,7 @@ const Services = () => {
               className="bg-brand-white text-green-900 p-6 rounded-lg shadow-md flex flex-col items-center text-center"
             >
               <div className="bg-green-300 text-green-900 rounded-full w-12 h-12 flex items-center justify-center mb-4 shadow-lg">
-                <span className="text-2xl">{feature.icon}</span>
+                <img src={feature.icon} alt="" className="mx-auto h-8 w-8" />
               </div>
               <h3 className="text-md font-semibold mb-2">{feature.title}</h3>
               <p className="text-gray-600 text-sm">{feature.description}</p>
