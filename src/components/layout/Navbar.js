@@ -1,11 +1,12 @@
 // Navbar.js
 import React, { useEffect, useState } from "react";
-import { Link } from "react-router-dom";
+import { Link, useLocation } from "react-router-dom";
 import iconCompany from "../../assets/images/logo-primary-green.png";
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
   const [navbarBg, setNavbarBg] = useState(false);
+  const location = useLocation();
 
   const changeBackground = () => {
     if (window.scrollY >= 80) {
@@ -24,6 +25,11 @@ const Navbar = () => {
 
   const toggleMenu = () => {
     setIsOpen(!isOpen);
+  };
+  const handleScrollToTop = (to) => {
+    if (location.pathname === to) {
+      window.scrollTo({ top: 0, behavior: "smooth" });
+    }
   };
 
   const menus = [
@@ -52,7 +58,11 @@ const Navbar = () => {
         <div className="flex items-center justify-between py-4 px-6 lg:px-0 lg:py-0">
           <ul>
             {/* Icon */}
-            <Link to="/" className="flex-shrink-0">
+            <Link
+              to="/"
+              className="flex-shrink-0"
+              onClick={() => handleScrollToTop("/")}
+            >
               <img
                 src={iconCompany}
                 alt="Icon"
@@ -78,6 +88,7 @@ const Navbar = () => {
                     <Link
                       to={menu.to}
                       className=" px-4 text-slate-600 hover:text-brand-black text-sm"
+                      onClick={() => handleScrollToTop(menu.to)}
                     >
                       {menu.name}
                     </Link>
@@ -92,6 +103,7 @@ const Navbar = () => {
                           to={sub.to}
                           key={subIndex}
                           className="block px-6 py-4 text-slate-600 hover:text-brand-black text-sm border-solid border-b border-grey-500"
+                          onClick={() => handleScrollToTop(sub.to)}
                         >
                           {sub.name}
                         </Link>

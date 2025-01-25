@@ -21,16 +21,18 @@ const WhyUs = () => {
             Kenapa harus Bagus Komputer?
           </h2>
           <p className=" mb-4 text-brand-black mt-4 leading-relaxed text-justify lg:text-left">
-            Bank Lorem Ipsum adalah mitra keuangan yang andal. Inovator dalam
-            layanan perbankan dan penyedia solusi keuangan. Cukup fleksibel
-            untuk memenuhi kebutuhan harian Anda, namun cukup kuat untuk
-            mendukung impian besar Anda.
+            Kami selalu mengikuti perkembangan teknologi terbaru untuk
+            memberikan solusi terbaik. Kami percaya bahwa teknologi adalah kunci
+            untuk mencapai pertumbuhan yang berkelanjutan.Kami bekerja bersama
+            Anda, mendengar kebutuhan Anda, dan menciptakan solusi yang sesuai
+            dengan tujuan Anda.
           </p>
           <p className=" text-brand-black mt-4 leading-relaxed text-justify lg:text-left">
-            Bank Lorem Ipsum hadir dengan layanan yang sederhana, cepat, dan
-            mudah diakses, namun tetap berkomitmen untuk memberikan solusi
-            keuangan yang lengkap dan komprehensif, sesuai dengan skala
-            kebutuhan Anda.
+            Mari tingkatkan perkembangan digital Anda, memperkuat jaringan, atau
+            membutuhkan perangkat lunak dan perangkat keras berkualitas tinggi?
+            Kami ada di sini untuk membantu Anda. Hubungi kami hari ini dan
+            mulailah perjalanan transformasi digital Anda bersama Bagus
+            Komputer.
           </p>
         </div>
       </div>

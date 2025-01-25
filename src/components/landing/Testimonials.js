@@ -4,46 +4,46 @@ const Testimonials = () => {
   const reviewers = [
     {
       id: 1,
-      name: "Harsh P.",
-      role: "Product Designer",
+      name: "Budi Santoso",
+      role: "Pemilik Toko Online Baju",
       image:
-        "https://images.unsplash.com/photo-1529232356377-57971f020a94?q=80&w=1888&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D", // Ganti dengan URL gambar yang sesuai
-      title: "You have right place",
+        "https://images.unsplash.com/photo-1557862921-37829c790f19?q=80&w=2071&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D", // Ganti dengan URL gambar yang sesuai
+      title: "Layanan Profesional",
       feedback:
-        "Pagedone has made it possible for me to stay on top of my portfolio and make informed decisions quickly and easily.",
+        "Jasa pembuatan website sangat profesional. Website saya kini terlihat modern, menarik, dan mendatangkan banyak pelanggan baru!",
       rating: 5,
     },
     {
       id: 2,
-      name: "Jane D.",
-      role: "CEO",
+      name: "Rina Setiawan",
+      role: "Digital Marketer",
       image:
-        "https://images.unsplash.com/photo-1529232356377-57971f020a94?q=80&w=1888&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D", // Ganti dengan URL gambar yang sesuai
-      title: "It's best",
+        "https://images.unsplash.com/photo-1543269664-56d93c1b41a6?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D", // Ganti dengan URL gambar yang sesuai
+      title: "Strategi Digital Marketing Hebat",
       feedback:
-        "The customer service team at pagedone went above and beyond to help me resolve a billing issue.",
+        "Tim mereka sangat membantu dalam menyusun strategi digital marketing yang meningkatkan omzet penjualan hingga 50%.",
       rating: 5,
     },
     {
       id: 3,
-      name: "Jane D.",
-      role: "CEO",
+      name: "Lia Pratiwi",
+      role: "Manajer Operasional",
       image:
-        "https://images.unsplash.com/photo-1529232356377-57971f020a94?q=80&w=1888&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D", // Ganti dengan URL gambar yang sesuai
-      title: "It's best",
+        "https://images.unsplash.com/photo-1530268729831-4b0b9e170218?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D", // Ganti dengan URL gambar yang sesuai
+      title: "Support Cepat & Tepat",
       feedback:
-        "The customer service team at pagedone went above and beyond to help me resolve a billing issue.",
+        "Support mereka sangat cepat dalam menangani masalah teknis. Sangat membantu operasional bisnis kami.",
       rating: 4,
     },
     {
       id: 4,
-      name: "Jane D.",
-      role: "CEO",
+      name: "Hendra Kurniawan",
+      role: "Pemilik Kafe",
       image:
-        "https://images.unsplash.com/photo-1529232356377-57971f020a94?q=80&w=1888&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D", // Ganti dengan URL gambar yang sesuai
-      title: "It's best",
+        "https://images.unsplash.com/photo-1545596108-90be48baf3d9?q=80&w=2074&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D", // Ganti dengan URL gambar yang sesuai
+      title: "Pelayanan Luar Biasa",
       feedback:
-        "The customer service team at pagedone went above and beyond to help me resolve a billing issue.",
+        "Layanan pembuatan website mereka luar biasa. Website kafe saya kini lebih menarik dan banyak dikunjungi pelanggan.",
       rating: 5,
     },
     {
@@ -51,7 +51,7 @@ const Testimonials = () => {
       name: "Jane D.",
       role: "CEO",
       image:
-        "https://images.unsplash.com/photo-1529232356377-57971f020a94?q=80&w=1888&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D", // Ganti dengan URL gambar yang sesuai
+        "https://images.unsplash.com/photo-1610387735653-3af3f9653838?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D", // Ganti dengan URL gambar yang sesuai
       title: "It's best",
       feedback:
         "The customer service team at pagedone went above and beyond to help me resolve a billing issue.",

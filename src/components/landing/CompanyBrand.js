@@ -9,16 +9,17 @@ const CompanyBrand = () => {
             Fleksibilitas, Inovasi dan kepercayaan
           </h2>
           <p className=" mb-4 text-brand-white mt-4 leading-relaxed text-justify lg:text-left">
-            Bank Lorem Ipsum adalah mitra keuangan yang andal. Inovator dalam
-            layanan perbankan dan penyedia solusi keuangan. Cukup fleksibel
-            untuk memenuhi kebutuhan harian Anda, namun cukup kuat untuk
-            mendukung impian besar Anda.
+            Bagus Komputer, mitra terpercaya Anda dalam solusi teknologi
+            digital. Kami adalah perusahaan yang berdedikasi untuk membantu
+            bisnis dan individu mencapai potensi penuh mereka melalui layanan
+            yang inovatif, berkualitas, dan terjangkau.
           </p>
           <p className="text-brand-white mt-4 leading-relaxed text-justify lg:text-left">
-            Bank Lorem Ipsum hadir dengan layanan yang sederhana, cepat, dan
-            mudah diakses, namun tetap berkomitmen untuk memberikan solusi
-            keuangan yang lengkap dan komprehensif, sesuai dengan skala
-            kebutuhan Anda.
+            Didirikan dengan semangat untuk membawa transformasi digital ke
+            berbagai sektor industri, Bagus Komputer memiliki tim profesional
+            yang berpengalaman dalam bidang Pembuatan Website, Digital
+            Marketing, Perangkat Keras & Perangkat Lunak Komputer dan Instalasi
+            Jaringan
           </p>
         </div>
         <div className="grid grid-cols-2 gap-4 mt-8">

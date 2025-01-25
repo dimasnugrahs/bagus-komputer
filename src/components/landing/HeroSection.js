@@ -35,7 +35,7 @@ const HeroSection = () => {
                       Jelajahi Layanan
                     </button>
                   </Link>
-                  <Link to="/services">
+                  <Link to="https://wa.me/6282146485018?text=Halo%20Bagus%20Komputer,%20saya%20ingin%20mengetahui%20lebih%20lanjut%20tentang%20layanan%20Anda.">
                     <button className="px-6 py-2 text-brand-black text-sm border-2 border-brand-secondary bg-brand-secondary rounded-lg hover:bg-brand-green hover:text-brand-white focus:outline-none focus:ring focus:ring-green-300">
                       Hubungi Sekarang
                     </button>
