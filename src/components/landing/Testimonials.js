@@ -68,18 +68,18 @@ const Testimonials = () => {
           We provide all the advantage that can simplify all your financial and
           banking support without any further issues
         </p>
-        <div className="grid gap-8 md:grid-cols-2">
+        <div className="grid gap-8 md:grid-cols-2 ">
           {reviewers.map((testimonial) => (
             <div
               key={testimonial.id}
-              className="bg-white shadow-lg rounded-lg p-6 flex flex-col items-center md:flex-row"
+              className="bg-white shadow-lg rounded-lg p-6 grid grid-cols-1 lg:grid-cols-3 lg:text-left border-2 border-gray-100"
             >
               <img
                 src={testimonial.image}
                 alt={testimonial.name}
-                className="w-48 h-48 rounded-sm object-cover mb-4 md:mb-0"
+                className="w-48 h-48 rounded-sm object-cover mb-4 md:mb-0 md:ml-6 col-span-1"
               />
-              <div className="md:ml-6">
+              <div className="md:ml-6 col-span-2 lg:ml-10">
                 <h3 className="text-lg font-bold mb-2">{testimonial.title}</h3>
                 <p className="text-sm text-gray-600 mb-4">
                   {testimonial.feedback}

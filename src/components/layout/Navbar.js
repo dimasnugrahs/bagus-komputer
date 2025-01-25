@@ -161,7 +161,11 @@ const Navbar = () => {
                   {menu.subMenu === null ? (
                     <Link
                       to={menu.to}
-                      className="text-slate-400 hover:text-brand-black block px-3 py-2 rounded-md font-medium r"
+                      className="text-slate-400 hover:text-brand-black block px-3 py-2 rounded-md font-medium"
+                      onClick={() => {
+                        handleScrollToTop(menu.to);
+                        setIsOpen(false); // Menutup navbar setelah klik sub-menu
+                      }}
                     >
                       {menu.name}
                     </Link>
@@ -176,6 +180,10 @@ const Navbar = () => {
                             to={sub.to}
                             key={subIndex}
                             className="block px-4 py-2 text-slate-400 hover:text-brand-black font-extralight"
+                            onClick={() => {
+                              handleScrollToTop(sub.to);
+                              setIsOpen(false); // Menutup navbar setelah klik menu
+                            }}
                           >
                             {sub.name}
                           </Link>

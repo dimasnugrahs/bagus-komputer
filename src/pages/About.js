@@ -1,7 +1,14 @@
 import React from "react";
+import HeroSection from "../components/about/HeroSection";
+import TeamSection from "../components/about/TeamSection";
 
 const About = () => {
-  return <div className="lg:px-32 lg:py-32">About Hello world</div>;
+  return (
+    <div>
+      <HeroSection />
+      <TeamSection />
+    </div>
+  );
 };
 
 export default About;
